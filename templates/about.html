@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>向育學個人簡介</title>
+ <style type="text/css">
+  * { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+  h1 {color:black; font-size:60px;}
+  h2 {color:blue; font-size:40px;}
+  h3 {color:black; font-size:20px;}
+ </style>
+
+ <script>
+  function change1() {
+     document.getElementById("pic").src = "https://www1.pu.edu.tw/~s1100411/picture/學/s1.jpg";
+     document.getElementById("h2text").innerText = "企業管理學系";
+  }
+
+  function change2() {
+     document.getElementById("pic").src = "https://www1.pu.edu.tw/~s1100411/picture/學/s2.jpg";
+     document.getElementById("h2text").innerText = "yuxuex";
+  }
+ </script>
+
+
+</head>
+<body>
+ <table width="70%">
+  <tr>
+   <td>
+  <img src="https://www1.pu.edu.tw/~s1100411/picture/學/s1.jpg" width="110%" id="pic" onmouseover="change1()" onmouseout="change2()"></img>
+ </td>>
+
+ <td>
+  <h1>向育學</h1><br>
+  <h2 id="h2text">yuxuex<h2><br>
+ </td>
+</tr>
+</table>
+<table width="70%" border="1">
+<tr>
+ <td>
+ <h3>About me</h3>
+  學校:靜宜大學<br>
+  系級:企管4B<br>
+  學號:410924577<br>
+ <h3>Contact</h3>
+  Tel: 0984321205<br>
+  E-Mail: s1092457@gm.pu.edu.tw<br>
+ </td>
+
+ <td>
+  <h3>推薦音樂</h3>
+ <audio controls>
+  <source src="https://www1.pu.edu.tw/~s1100411/picture/學/gods.mp3" type="audio/mP3">
+ </audio><br>
+ </td>
+
+ <td>
+ <h3>經典佳句</h3>
+ “with great power comes great responsibility.” - spiderman<br>
+ </td>
+</tr>
+</table>
+
+</body>
